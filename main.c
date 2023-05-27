@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -64,7 +64,7 @@ if (strcmp(pas.pass,c) == 0)
 {
 system("cls");
 gotoxy(10, 3);
-printf("<<<< lütfen bekleyin >>>>");
+printf("<<<< lÃ¼tfen bekleyin >>>>");
 for (i = 0; i < 5; i++)
 {
 printf("\t(*_*)");
@@ -72,10 +72,10 @@ Sleep(500);
 }
 printf(" \n\n\n\n\n\t\t\t\t\t * * * * * * * *");
 printf("\n\n\t\t\t\t\t *             *");
-printf("\n\n\t\t\t\t\t *hoþ geldiniz *");
+printf("\n\n\t\t\t\t\t *hoÃ¾ geldiniz *");
 printf("\n\n\t\t\t \t\t *             *");
 printf("\n\n\t\t\t\t\t * * * * * * * *");
-printf("\n\n\n\n\n\t\t\t\t\tdevam etmek icin bir tusa basýnýz...... ");
+printf("\n\n\n\n\n\t\t\t\t\tdevam etmek icin bir tusa basÃ½nÃ½z...... ");
 getch();
 title();
    title();
@@ -83,10 +83,10 @@ title();
         printChar('*',64);
 char option=0;
         printf("\n\n\t\t\t\t1. ogrenci ekle");
-        printf("\n\n\t\t\t\t2. ogrenci ayarý\n\t");//sadece ad soyad ve tc degistirir 
+        printf("\n\n\t\t\t\t2. ogrenci ayarÃ½\n\t");//sadece ad soyad ve tc degistirir 
        
         printChar('*',64);
-        printf("\n\n\t\t\t\tlütfen seciniz :--> ");
+        printf("\n\n\t\t\t\tlÃ¼tfen seciniz :--> ");
         scanf("%c",&option);
       
     
@@ -151,7 +151,7 @@ void title()
     system("COLOR 03");
     printf("\n\n\t");
     printChar('=',19);
-    printf(" ogrencý kayýt sistemi ");
+    printf(" ogrencÃ½ kayÃ½t sistemi ");
     printChar('=',19);
     printf("\n");
 }
@@ -165,7 +165,7 @@ void modify(const kimlik* deger)
 	 FILE *tr=fopen("ad_soyad.txt","w+");
 	if(!tr)
 	{
-		printf("dosya acilmöadi");
+		printf("dosya acilmÃ¶adi");
 		exit(1);
 	}
 	
